@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "MujNovyFont";
+  src: url("font-pottery/Pottery\ Gifts.woff") format("woff2"),
+    url("font-pottery/Pottery\ Gifts.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/background-7083244_1280.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 10rem;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  color: #a0d1e7;
+  font-size: 11rem;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 900;
+  font-family: "MujNovyFont", sans-serif;
+  -webkit-text-stroke: 0.1px rgb(119, 167, 207);
+}
+
+#img-h1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 27px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+#img-h1:hover {
+  box-shadow: 0 0 70px 30px rgb(247, 222, 236);
+  border-radius: 50%;
+}
+
+#playground {
+  background-color: #f8b01594;
+  width: 70rem;
+  height: 43rem;
+  border-radius: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: "MujNovyFont", sans-serif;
+  color: #ffaebc;
+  -webkit-text-stroke: 0.1px #c97b88;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 75px;
+}
+
+p {
+  text-align: justify;
+  font-family: "MujNovyFont", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-weight: bold;
+}
+
+.ready {
+  text-align: center;
+  font-family: "MujNovyFont", sans-serif;
+  font-size: 3.5rem;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#btn-yes {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "MujNovyFont", sans-serif;
+  font-size: 3.5rem;
+  background-color: rgba(220, 20, 60, 0.705);
+  color: rgb(253, 198, 125);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#btn-yes:hover {
+  box-shadow: 0 0 40px 30px rgb(255, 220, 175);
+  font-size: 4.5rem;
+  transition: 1s ease;
+}
+
+#img-one {
+  position: absolute;
+  width: 50rem;
+  height: 45rem;
+  padding-bottom: 2rem;
+  opacity: 1;
+}
+
+#img-two {
+  position: absolute;
+  width: 65rem;
+  height: 50rem;
+  padding-bottom: 2rem;
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-answer {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "MujNovyFont", sans-serif;
+  font-size: 3rem;
+  background-color: rgba(232, 170, 182, 0.834);
+  color: rgb(242, 150, 30);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -150px;
+}
+
+.btn-wrong {
+  background-color: rgba(242, 7, 54, 0.834);
+  color: rgb(14, 8, 1);
+}
+
+.btn-correct {
+  background-color: rgba(28, 255, 77, 0.834);
+  color: rgb(14, 8, 1);
+}
+
+#layout {
+  display: flex;
+  flex-direction: row;
+}
+
+#score-div {
+  font-family: "MujNovyFont", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 12rem;
+  margin-right: 50rem;
+}
